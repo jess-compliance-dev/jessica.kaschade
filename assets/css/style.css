@@ -19,8 +19,8 @@ body {
 ========================= */
 .hero {
   text-align: center;
-  padding: 60px 20px 50px 20px;
-  background-color: #f2f2f2; /* leichtes Grau nur hier */
+  padding: 60px 20px 50px;
+  background-color: #f2f2f2;
 }
 
 .profile-photo {
@@ -41,7 +41,9 @@ body {
   margin-bottom: 25px;
 }
 
-/* NAV */
+/* =========================
+   NAVIGATION
+========================= */
 nav {
   margin-top: 10px;
 }
@@ -56,8 +58,12 @@ nav a:hover {
   text-decoration: underline;
 }
 
+nav a.active {
+  text-decoration: underline;
+}
+
 /* =========================
-   SECTIONS GLOBAL
+   SECTIONS – GLOBAL
 ========================= */
 section {
   padding: 60px 20px;
@@ -73,15 +79,14 @@ h2 {
   padding-bottom: 5px;
 }
 
-/* Abstand zwischen Textblöcken */
 section p {
   margin-bottom: 18px;
 }
 
 /* =========================
-   ABOUT SECTION
+   ABOUT
 ========================= */
-section#about h3 {
+#about h3 {
   margin-top: 35px;
   margin-bottom: 10px;
 }
@@ -98,15 +103,19 @@ section#about h3 {
 }
 
 /* =========================
-   BIO / CAREER
+   CAREER (COMPACT)
 ========================= */
-#bio {
-  max-width: 900px;
-  margin: auto;
+#career {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+#career h2 {
+  margin-bottom: 15px;
 }
 
 .job {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .job h3 {
@@ -114,12 +123,12 @@ section#about h3 {
 }
 
 .job p {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .job ul {
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .job ul li {
@@ -127,7 +136,7 @@ section#about h3 {
 }
 
 /* =========================
-   CARDS (Articles etc.)
+   CARDS (ARTICLES)
 ========================= */
 .cards {
   display: flex;
@@ -160,9 +169,9 @@ section#about h3 {
 ========================= */
 .article-card {
   display: flex;
-  border: 1px solid #000;
-  padding: 12px;
   gap: 15px;
+  padding: 12px;
+  border: 1px solid #000;
   flex: 1 1 400px;
 }
 
@@ -183,8 +192,17 @@ section#about h3 {
 }
 
 /* =========================
-   CONTACT
+   CONTACT (COMPACT)
 ========================= */
+#contact {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#contact h2 {
+  margin-bottom: 15px;
+}
+
 #contact p {
   margin-bottom: 8px;
 }
@@ -192,17 +210,38 @@ section#about h3 {
 /* =========================
    IMPRESSUM
 ========================= */
-#impressum p {
-  margin-bottom: 10px;
+#impressum {
+  padding: 60px 30px;
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
+#impressum h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+#impressum p,
 #impressum ul {
-  margin-left: 20px;
   margin-bottom: 15px;
+  line-height: 1.7;
+  font-size: 1rem;
 }
 
-#impressum ul li {
-  margin-bottom: 6px;
+#impressum a {
+  color: #000;
+  text-decoration: underline;
+}
+
+#impressum a:hover {
+  color: #0077cc;
 }
 
 /* =========================
@@ -213,7 +252,7 @@ footer {
   padding: 25px;
   border-top: 1px solid #000;
   margin-top: 40px;
-  background-color: #f2f2f2; /* leichtes Grau wie Header */
+  background-color: #f2f2f2;
 }
 
 footer a {
