@@ -35,7 +35,7 @@ a:visited {
 .hero {
   text-align: center;
   padding: 100px 20px 80px;
-  background: linear-gradient(to bottom, var(--bg-light), #ffffff);
+  background-color: #f0f0f0; /* leichter Grauton */
   border-bottom: 1px solid var(--border-light);
 }
 
