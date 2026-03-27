@@ -123,7 +123,7 @@ section p {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .skills-category {
@@ -133,7 +133,7 @@ section p {
 
 .skills-category h3 {
   font-family: var(--font-heading);
-  margin-bottom: 12px;
+  margin-bottom: 30px;
 }
 
 .skills {
@@ -160,19 +160,20 @@ section p {
 }
 
 .target-positions p {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   font-size: 1.1rem;
   line-height: 1.5;
 }
 
 .target-positions ul.skills {
+  margin-bottom:0.8px;
   list-style: none;
   padding-left: 15px;
   margin: 0;
 }
 
 .target-positions ul.skills li {
-  margin-bottom: 8px;
+  margin-bottom:0.8px;
   font-size: 0.9rem;
   line-height: 1.5;
   font-family: var(--font-main);
