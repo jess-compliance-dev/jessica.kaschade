@@ -176,3 +176,15 @@ main { display: block; }
   html { scroll-behavior: auto; }
   .btn { transition: none; }
 }
+
+/* Legal page (Impressum) */
+.legal {
+  max-width: 720px; margin-inline: auto;
+  padding: 4rem 1.5rem 5rem;
+}
+.legal h1 { font-size: clamp(2rem, 4vw, 2.6rem); margin-bottom: .5rem; }
+.legal .legal-sub { color: var(--muted); margin-bottom: 2.5rem; }
+.legal-block { padding: 1.5rem 0; border-top: 1px solid var(--line); }
+.legal-block h2 { font-size: 1.15rem; margin-bottom: .6rem; }
+.legal-block p { color: var(--muted); margin: 0; }
+.legal-back { display: inline-block; margin-top: 2rem; font-weight: 600; }
